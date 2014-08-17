@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.userTextField.layer.borderWidth=1.0;
+    self.userTextField.layer.borderColor=[[UIColor  blueColor] CGColor];
+    self.userTextField.layer.cornerRadius=14.0;
 }
 
 - (void)didReceiveMemoryWarning

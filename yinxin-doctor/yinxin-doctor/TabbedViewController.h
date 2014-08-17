@@ -10,4 +10,6 @@
 
 @interface TabbedViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *userTextField;
+
 @end
