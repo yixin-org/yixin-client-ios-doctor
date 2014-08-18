@@ -81,6 +81,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69F96EA019A24FC100E7B582 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				69F96EA119A24FD200E7B582 /* icons */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		69F96EA119A24FD200E7B582 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
 		BFF27D5D198F351400E752B9 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +144,7 @@
 		BFF27D70198F351400E752B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69F96EA019A24FC100E7B582 /* images */,
 				BFF27D71198F351400E752B9 /* yinxin-doctor-Info.plist */,
 				BFF27D72198F351400E752B9 /* InfoPlist.strings */,
 				BFF27D75198F351400E752B9 /* main.m */,
@@ -475,6 +491,7 @@
 				BFF27D9D198F351400E752B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFF27D9E198F351400E752B9 /* Build configuration list for PBXNativeTarget "yinxin-doctorTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +500,7 @@
 				BFF27DA0198F351400E752B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
