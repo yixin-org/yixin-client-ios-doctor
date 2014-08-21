@@ -22,6 +22,18 @@
     self.userTextField.layer.borderWidth=1.0;
     self.userTextField.layer.borderColor=[[UIColor  blueColor] CGColor];
     self.userTextField.layer.cornerRadius=14.0;
+    
+    self.pwdTextField.layer.borderWidth=1.0;
+    self.pwdTextField.layer.borderColor=[[UIColor  blueColor] CGColor];
+    self.pwdTextField.layer.cornerRadius=14.0;
+    
+    [self.btnLogin.layer setMasksToBounds:YES];
+    [self.btnLogin.layer setBorderWidth:1.0];
+    self.btnLogin.layer.cornerRadius=14.0;
+    self.btnLogin.layer.borderColor=[[UIColor  blueColor] CGColor];
+    
+    
+    self.roundImage.layer.cornerRadius=60.0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,4 +42,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)userLogin:(id)sender {
+}
 @end

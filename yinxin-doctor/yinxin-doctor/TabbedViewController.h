@@ -12,4 +12,12 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *userTextField;
 
+@property (weak, nonatomic) IBOutlet UITextField *pwdTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *roundImage;
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
+
+
+- (IBAction)userLogin:(id)sender;
+
 @end
